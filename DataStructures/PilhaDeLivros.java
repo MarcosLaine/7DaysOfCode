@@ -40,7 +40,7 @@ public class PilhaDeLivros {
             Livro tmp = new Livro(null, 0);
             tmp = topo.baixo;
             topo.baixo = null;
-            topo = tmp;
+            topo = tmp; 
         }
     }
 
@@ -65,6 +65,7 @@ public class PilhaDeLivros {
         }
     }
 
+    //Função Main
     public static void main(String[] args) {
         PilhaDeLivros pilha = new PilhaDeLivros();
         pilha.adicionar_livro("GoT 1",  528);
